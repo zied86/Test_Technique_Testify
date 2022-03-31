@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2797721100,
+  "duration": 2769324500,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "CommonSteps.jeMeConnecteSurLApplicationSHOPTOOLSQA()"
 });
 formatter.result({
-  "duration": 16293777000,
+  "duration": 17680669200,
   "status": "passed"
 });
 formatter.scenario({
@@ -56,7 +56,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "Je choisir une option de couleur\"Black\"et une option taille \"M\"",
+  "name": "Je choisis une option de couleur\"Black\"et une option taille \"M\"",
   "keyword": "And "
 });
 formatter.step({
@@ -96,7 +96,7 @@ formatter.step({
 });
 formatter.step({
   "line": 19,
-  "name": "Je remplir les champs prénom \"Raissi\" et nom \" Zied\" et pays \"Tunisia\"et l’adresse \" LA sokra 2043\"et ville \"La Marsa \" et etat \"achat en ligne\"  et code postale \"1003\" et numéro de téléphone \"+21658999862\" et l’adresse mail \"raissi.zied0108@gmail.com\"\"\"",
+  "name": "Je remplis les champs prénom \"Raissi\" et nom \" Zied\" et pays \"Tunisia\"et l’adresse \" LA sokra 2043\"et ville \"La Marsa \" et etat \"achat en ligne\"  et code postale \"1003\" et numéro de téléphone \"+21658999862\" et l’adresse mail \"raissi.zied0108@gmail.com\"\"\"",
   "keyword": "And "
 });
 formatter.step({
@@ -118,7 +118,7 @@ formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeSelectionnerLArticle()"
 });
 formatter.result({
-  "duration": 4437088200,
+  "duration": 3288187000,
   "status": "passed"
 });
 formatter.match({
@@ -132,17 +132,17 @@ formatter.match({
       "offset": 61
     }
   ],
-  "location": "AchatEnLigeStepDefinitions.jeChoisirUneOptionDeCouleurEtUneOptionTaille(String,String)"
+  "location": "AchatEnLigeStepDefinitions.jeChoisisUneOptionDeCouleurEtUneOptionTaille(String,String)"
 });
 formatter.result({
-  "duration": 242791000,
+  "duration": 200889600,
   "status": "passed"
 });
 formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeCliqueSurLeBoutonADDTOCART()"
 });
 formatter.result({
-  "duration": 1191989200,
+  "duration": 840935600,
   "status": "passed"
 });
 formatter.match({
@@ -155,14 +155,14 @@ formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeVérifieLAffichageDeMessageDeSuccès(String)"
 });
 formatter.result({
-  "duration": 28362000,
+  "duration": 29675800,
   "status": "passed"
 });
 formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeCliqueSurLeBoutonWiewCart()"
 });
 formatter.result({
-  "duration": 1549455600,
+  "duration": 1162438100,
   "status": "passed"
 });
 formatter.match({
@@ -175,7 +175,7 @@ formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeVérifieLAjoutDeLarticleDansLePanier(String)"
 });
 formatter.result({
-  "duration": 33485700,
+  "duration": 27678900,
   "status": "passed"
 });
 formatter.match({
@@ -188,14 +188,14 @@ formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeVérifieLAfficheDePrixTotalDansLePanier(String)"
 });
 formatter.result({
-  "duration": 22446000,
+  "duration": 23222300,
   "status": "passed"
 });
 formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeCliqueSurLeBoutonProceedToCheckout()"
 });
 formatter.result({
-  "duration": 1399761500,
+  "duration": 1353074200,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeVérifieLaRedirectionVersLeFormulaireDePayement(String)"
 });
 formatter.result({
-  "duration": 23520200,
+  "duration": 23850400,
   "status": "passed"
 });
 formatter.match({
@@ -254,24 +254,24 @@ formatter.match({
       "offset": 253
     }
   ],
-  "location": "AchatEnLigeStepDefinitions.jeRemplirLesChampsPrénomEtNomEtPaysEtLAdresseEtVilleEtEtatEtCodePostaleEtNuméroDeTéléphoneEtLAdresseMail(String,String,String,String,String,String,String,String,String,String)"
+  "location": "AchatEnLigeStepDefinitions.jeRemplisLesChampsPrénomEtNomEtPaysEtLAdresseEtVilleEtEtatEtCodePostaleEtNuméroDeTéléphoneEtLAdresseMail(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 875328200,
+  "duration": 924027400,
   "status": "passed"
 });
 formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeCocherLaCaseIHAVEREADANDAGREETOTHEWEBSITETERMSANDCONDITIONS()"
 });
 formatter.result({
-  "duration": 1087611000,
+  "duration": 1076552400,
   "status": "passed"
 });
 formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeCliqueSurLeBoutonPLACEORDER()"
 });
 formatter.result({
-  "duration": 90100800,
+  "duration": 85337800,
   "status": "passed"
 });
 formatter.match({
@@ -284,11 +284,11 @@ formatter.match({
   "location": "AchatEnLigeStepDefinitions.jeVérifieLAchatDeLaCommande(String)"
 });
 formatter.result({
-  "duration": 2279759300,
+  "duration": 2257097900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 661949500,
+  "duration": 696498200,
   "status": "passed"
 });
 });

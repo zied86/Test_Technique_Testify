@@ -21,8 +21,8 @@ public class AchatEnLigeStepDefinitions {
         achat.clickSurArticle();
     }
 
-    @When("^Je choisir une option de couleur\"([^\"]*)\"et une option taille \"([^\"]*)\"$")
-    public void jeChoisirUneOptionDeCouleurEtUneOptionTaille(String arg1, String arg2) throws Throwable {
+    @When("^Je choisis une option de couleur\"([^\"]*)\"et une option taille \"([^\"]*)\"$")
+    public void jeChoisisUneOptionDeCouleurEtUneOptionTaille(String arg1, String arg2) throws Throwable {
         achat.selectDropDownListByValue(AchatEnLignePageObject.couleur, arg1);
         achat.selectDropDownListByValue(AchatEnLignePageObject.taille, arg2);
     }
@@ -62,8 +62,8 @@ public class AchatEnLigeStepDefinitions {
         achat.assertTrueFacturation(AchatEnLignePageObject.detailsfacturation, text);
     }
 
-    @When("^Je remplir les champs prénom \"([^\"]*)\" et nom \"([^\"]*)\" et pays \"([^\"]*)\"et l’adresse \"([^\"]*)\"et ville \"([^\"]*)\" et etat \"([^\"]*)\"  et code postale \"([^\"]*)\" et numéro de téléphone \"([^\"]*)\" et l’adresse mail \"([^\"]*)\"\"([^\"]*)\"$")
-    public void jeRemplirLesChampsPrénomEtNomEtPaysEtLAdresseEtVilleEtEtatEtCodePostaleEtNuméroDeTéléphoneEtLAdresseMail(String arg1, String arg2, String arg3, String arg4, String arg5, String arg6, String arg7, String arg8, String arg9, String arg10) throws Throwable {
+    @When("^Je remplis les champs prénom \"([^\"]*)\" et nom \"([^\"]*)\" et pays \"([^\"]*)\"et l’adresse \"([^\"]*)\"et ville \"([^\"]*)\" et etat \"([^\"]*)\"  et code postale \"([^\"]*)\" et numéro de téléphone \"([^\"]*)\" et l’adresse mail \"([^\"]*)\"\"([^\"]*)\"$")
+    public void jeRemplisLesChampsPrénomEtNomEtPaysEtLAdresseEtVilleEtEtatEtCodePostaleEtNuméroDeTéléphoneEtLAdresseMail(String arg1, String arg2, String arg3, String arg4, String arg5, String arg6, String arg7, String arg8, String arg9, String arg10) throws Throwable {
         achat.saisiDonnerFromulaire(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
     }
 
