@@ -1,0 +1,8 @@
+com\automatedTests\helpers\BasePageHelper.class
+com\automatedTests\helpers\HelpersMethods.class
+com\automatedTests\common\Common.class
+com\automatedTests\common\Handles.class
+com\automatedTests\common\PropertiesHelpers.class
+com\automatedTests\helpers\AbstractPage.class
+com\automatedTests\helpers\GetInfoFromDB.class
+com\automatedTests\helpers\PageGenerator.class
